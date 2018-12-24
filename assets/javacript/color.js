@@ -1,3 +1,4 @@
+
 var numSquares = 6;
 var colors = [];
 var pickedColor;
@@ -109,4 +110,3 @@ function randomColor(){
 	var b = Math.floor(Math.random() * 256);
 	return "rgb(" + r + ", " + g + ", " + b + ")";
 }
-
